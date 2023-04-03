@@ -44,5 +44,6 @@ app.get('/*', (req, res) => {
 });
 
 app.listen(port, () => {
+    console.log(`Example app Franco`)
     console.log(`Example app listening on port ${port}`)
 })
